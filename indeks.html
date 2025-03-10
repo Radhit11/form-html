@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+<Head>
+<title>Form HTML</title>
+<meta name="author" content="M Radithya Rafif">
+</head>
+<body>
+	<form method ="" action="">
+	<fieldset>
+	<table>
+	
+	<legend>Data Pribadi</legend>
+		<tr>
+			<th><label for="">Nama</label></th>
+			<td><input size = "40"type ="text" name="nama" autofocus placeholder="Nama Lengkap"required></td>
+		</tr>
+		<tr>
+			<th><label for="">NIM</label></th>
+			<td><input type="number" name="nim" id="nim"> <!--value="1234 untuk langsung mengisi kolom"--> 
+			<!--readonly = agar tidak bisa diisi oleh user--></td>
+		</tr>
+	
+	
+		<tr>
+			<th><label for="">EMAIL</label></th>
+			<td><input type ="email" name="EMAIL"></td>
+		</tr>
+		<tr>
+			<th><label  for ="">Jenis Kelamin</label></th>
+			<td><input type = "radio" name="jk" value="Laki-Laki">Laki-Laki
+			<input type = "radio" name="jk" value="Perempuan">Perempuan</td>
+		</tr>
+		<tr>
+			<th><label for ="">Tanggal Lahir</label></th>
+			<td><input type="date" name="tgl_lahir">
+			<input type="datetime-local"></td>
+		</tr>
+		<tr>
+			<th><label="">Hobby  </label></th>
+			<td><input type="checkbox" name="hobby" value="membaca">Membaca
+			<input type="checkbox" name="hobby" value="berenang">Berenang
+			<input type="checkbox" name="hobby" value="menyanyi">Menyanyi</td>
+		</tr>
+			<th><label for="">Password</label></th>
+			<td><input type="password" name="password"></td>
+		<tr>
+			<th><label for="">foto</label></th>
+			<td><input type="file" name="foto" accept="image/*"></td>
+		</tr>
+		<tr>
+			<th><label for="">warna kesukaan</label></th>
+			<td><input type="color" name="warna"></td>
+		</tr>
+		<tr>
+			<th><label for="">Alamat</label>
+			<td><textarea name="alamat" id="alamat" cols="30" rows="5"></textarea></td>
+		</tr>
+		<tr>
+			<th><label for="">Kota</label></th>
+			<td>
+				<select name= "kota" id="kota">
+				<option value="Padang">Padang</option>
+				<option value="Payakumbuh">Payakumbuh</option>
+				<option value="Bukittinggi">Bukittinggi</option>
+				<option value="Jawa">Jawa</option>
+				<option value="Jaksel">Jaksel</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td input colspan="2" align="center"><input type = "submit"></td>
+		</tr>
+		
+	</table>
+	
+	</form>
+</body>
+</html>
